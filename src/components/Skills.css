@@ -62,6 +62,13 @@
     margin-right: 10px;
 }
 
+.skills-accordion .accordion-collapse{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
 @media (max-width: 425px) {
     .skills-h4{
         font-size: 15px;
@@ -74,6 +81,11 @@
     .skills-accordion-header .accordion-button{
         font-size: 20px;
     }
+
+    .skills-accordion .accordion-collapse{
+        font-size: 13px;
+    }
+
 }
 
 
@@ -104,4 +116,5 @@
     .skills-accordion-header .accordion-button{
         font-size: 17px;
     }
+
 }
