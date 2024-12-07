@@ -1,0 +1,41 @@
+
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.about-row{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.about-col{
+    padding: 0 !important;
+}
+
+.about-h4{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85.605%; /* 17.121px */
+    letter-spacing: -0.2px;
+    width: 100%;
+}
+
+.about-p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.35px;
+}
+
+@media (max-width: 425px) {
+    .about-p{
+        font-size: 15px;
+    }
+}
