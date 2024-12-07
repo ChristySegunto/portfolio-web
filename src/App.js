@@ -7,6 +7,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects'
 
 const openbracket = '<';
 const closebracket = '>';
@@ -67,6 +68,16 @@ function App() {
 							>
 								Skills
 							</Link>	
+							<Link 
+								to="projects" 
+								className='nav-link link-custom'
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								Projects
+							</Link>	
 							{/* <NavLink href="#projects" className='nav-link link-custom'>Projects</NavLink> */}
 						</Nav>
 						<Button variant="outline-primary" onClick={toggleTheme}>
@@ -79,6 +90,7 @@ function App() {
 			<Home theme={theme} id="home" />
 			<About theme={theme} id="about" />
 			<Skills theme={theme} id="skills" />
+			<Projects theme={theme} id={"projects"} />
 		</div>
 	);
 }
