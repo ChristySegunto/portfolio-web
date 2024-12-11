@@ -62,6 +62,10 @@
     color: #FFF;
 }
 
+.dark .project-text{
+    color: #9c9c9c;
+}
+
 .project-image{
     padding: 15px;
 }
