@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 
-import { Row, Col, Container, Image, Card } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 import './../App.css';
 import './Projects.css';
 import drrms from './../images/drrms.png';

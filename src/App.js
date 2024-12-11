@@ -1,10 +1,10 @@
 import './App.css';
-import { Nav, Navbar, Container, NavLink, Button } from 'react-bootstrap';
+import { Nav, Navbar, Container, Button } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import { FaBars } from "react-icons/fa";
 import { IoSunnySharp, IoMoonSharp } from "react-icons/io5";
 
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import Home from './components/Home';
 import About from './components/About';
