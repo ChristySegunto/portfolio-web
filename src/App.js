@@ -2,12 +2,15 @@ import './App.css';
 import { Nav, Navbar, Container, NavLink, Button } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import { FaBars } from "react-icons/fa";
+import { IoSunnySharp, IoMoonSharp } from "react-icons/io5";
+
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
-import Projects from './components/Projects'
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 const openbracket = '<';
 const closebracket = '>';
@@ -78,11 +81,19 @@ function App() {
 							>
 								Projects
 							</Link>	
-							{/* <NavLink href="#projects" className='nav-link link-custom'>Projects</NavLink> */}
+							<Link 
+								to="contact" 
+								className='nav-link link-custom'
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								Contact
+							</Link>	
+
 						</Nav>
-						<Button variant="outline-primary" onClick={toggleTheme}>
-							{theme === 'light' ? 'Dark' : 'Light'} Mode
-						</Button>
+
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
@@ -91,6 +102,15 @@ function App() {
 			<About theme={theme} id="about" />
 			<Skills theme={theme} id="skills" />
 			<Projects theme={theme} id={"projects"} />
+			<Contact theme={theme} id="contact"/>
+
+			<Button 
+				variant="outline-primary" 
+				onClick={toggleTheme} 
+				className="theme-toggle-btn"
+			>
+				{theme === 'light' ? <IoMoonSharp /> : <IoSunnySharp />}
+			</Button>
 		</div>
 	);
 }
