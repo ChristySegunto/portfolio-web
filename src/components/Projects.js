@@ -29,7 +29,7 @@ function Projects({ theme, id }) {
         {
           title: "AutoFleet",
           description:
-            "AutoFleet is a comprehensive fleet management that provides real-time vehicle tracking, rental scheduling, and maintenance monitoring, ensuring efficient and seamless management of fleets of all sizes.",
+            "AutoFleet is a fleet management that provides real-time vehicle tracking, rental scheduling, and maintenance monitoring, ensuring efficient and seamless management of fleets.",
           image: autofleet,
         },
         {
