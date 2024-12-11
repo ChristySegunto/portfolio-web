@@ -19,6 +19,10 @@
     padding:  15%;
 }
 
+.contact-title{
+    margin: 0;
+}
+
 .contact-h4{
     font-family: Poppins;
     font-size: 20px;
