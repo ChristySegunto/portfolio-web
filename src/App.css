@@ -264,6 +264,12 @@ body{
 }
 
 @media (max-width: 575px) {
+  .name-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .Home{
     padding-right: 30px;
     padding-left: 30px;
@@ -277,6 +283,7 @@ body{
 
   .home-p{
     font-size: 12px;
+    text-align: center;
   }
 
   .home-h4{
