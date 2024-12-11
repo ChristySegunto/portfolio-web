@@ -15,7 +15,7 @@ function Home({ theme, id }) {
             <div className='name-div'>
               <h4 className='home-h4'>{openbracket}Hello!{closebracket}</h4>
               <h1 className='home-h1'>I'M CHRISTY.</h1>
-              <p className='home-p'>Specializing in Website Design and Software Development</p>
+              <p className='home-p'>Specializing in Website Design and Development</p>
             </div>
 
           
