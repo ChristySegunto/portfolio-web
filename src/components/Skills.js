@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 
 import './../App.css';

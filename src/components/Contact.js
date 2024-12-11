@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import React from 'react';
+import { Row } from 'react-bootstrap';
 import './../App.css';
 import './Contact.css'
 
 import { FaFacebook, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
-const openbracket = '<';
-const closebracket = '>';
 
 function Contact({ theme, id }) {
     return (

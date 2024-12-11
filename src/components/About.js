@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import './../App.css';
 import './About.css'
 
-const openbracket = '<';
-const closebracket = '>';
 
 function About({ theme, id }) {
     return (

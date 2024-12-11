@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import ImageContentHover from 'react-image-hover';
 
 import { Row, Col, Container, Image, Card } from 'react-bootstrap';
 import './../App.css';
@@ -9,8 +8,7 @@ import dentalsol from './../images/dentalsolution.png';
 import autofleet from './../images/autofleet.png';
 import portfolio from './../images/portfolio.png';
 
-const openbracket = '<';
-const closebracket = '>';
+
 
 function Projects({ theme, id }) {
     const projectData = [
