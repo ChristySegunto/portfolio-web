@@ -29,6 +29,10 @@
     color: #1E1E1E;
 }
 
+.dark .contact-h4{
+    color: #FFF;
+}
+
 .contact-message h4{
     color: #1E1E1E;
     text-align: center;
