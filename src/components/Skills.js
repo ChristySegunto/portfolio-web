@@ -24,37 +24,33 @@ function Skills({ theme, id }) {
                             <Accordion.Item eventKey="0" className="skills-accordion">
                                 <Accordion.Header className='skills-accordion-header'><span>01 </span> TOOLS I USE</Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                I utilize a range of tools to enhance my development and design workflows. For design, I work with <strong className='strong-custom'>Figma</strong> and <strong className='strong-custom'>Canva</strong> to create visually engaging user interfaces and prototypes. 
+                                For version control, I rely on <strong className='strong-custom'>Git</strong> and <strong className='strong-custom'>GitHub</strong> to manage and collaborate on projects effectively. Additionally, I use <strong className='strong-custom'>Microsoft Visual Studio Code</strong> and <strong className='strong-custom'>Visual Studio</strong> for coding, 
+                                while the <strong className='strong-custom'>Microsoft Office Suite (Excel, Word, PowerPoint, Access)</strong> supports my productivity and project documentation needs.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1" className="skills-accordion">
                                 <Accordion.Header className='skills-accordion-header'><span>02 </span> LANGUAGE I SPEAK</Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                I am proficient in <strong className='strong-custom'>JavaScript</strong>, with expertise in <strong className='strong-custom'>React</strong> for building dynamic UIs and <strong className='strong-custom'>Node.js</strong> for server-side development. 
+                                I also have strong experience with <strong className='strong-custom'>Python</strong>, especially in building web applications with <strong>Django</strong>. 
+                                Additionally, I am proficient in <strong className='strong-custom'>HTML, CSS, and PHP</strong>, ensuring I can handle full-stack development projects efficiently.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2" className="skills-accordion">
                                 <Accordion.Header className='skills-accordion-header'><span>03 </span> FRAMEWORKS I WORK WITH</Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                On the front-end, I specialize in <strong className='strong-custom'>React</strong> and <strong className='strong-custom'>Bootstrap</strong> for building responsive and interactive web applications. 
+                                For back-end development, I primarily use <strong className='strong-custom'>Django</strong>, leveraging its power to build robust and scalable applications.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="3" className="skills-accordion">
+                                <Accordion.Header className='skills-accordion-header'><span>04 </span> DATABASES I RELY ON</Accordion.Header>
+                                <Accordion.Body>
+                                I work with a wide range of database technologies to manage and store data effectively in modern applications. 
+                                I have hands-on experience with <strong className='strong-custom'>Supabase</strong> for real-time, open-source databases, <strong className='strong-custom'>MySQL</strong> for relational database management, 
+                                and <strong className='strong-custom'>Firebase</strong> for NoSQL solutions. Additionally, I work with <strong className='strong-custom'>SQL Server</strong> for applications requiring robust performance and scalability. 
+                                My expertise includes designing and optimizing database schemas, and ensuring efficient data retrieval to meet the needs of different applications.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
