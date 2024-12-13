@@ -106,9 +106,8 @@ body{
 }
 
 
-
-
 .home-h4{
+  display: flex;
   margin: 0;
 }
 
